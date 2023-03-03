@@ -1,14 +1,15 @@
 # BYD (Build Your Dream) Car Repair Manuals and Factory Images
 
 # Car repair manuals and factory images for global models of BYD cars
-These Github repo contains BYD Auto Global models repair manuals and factory images. The global version refers to BYD's models sold outside Chinese mainland, such as ATTO 3 (Chinese mainland version corresponding to Yuan PLUS) sold in Australia, Japan, Germany, and Malaysia. Also please note that the software of BYD Auto Global Edition is different from that of the Chinese mainland version and may not be universal.  
+These Github repo contains BYD Auto Global models repair manuals and factory images. The global version refers to BYD's models sold outside Chinese mainland, such as ATTO 3 (Chinese mainland version corresponding to Yuan PLUS) sold in Australia, Japan, Germany, and Malaysia, etc. Also please note that the software of BYD Auto Global Edition maybe different from that of the Chinese mainland models and may not be interchangable (not tested).  
 
 # Global version factory images repo:
 
 https://github.com/BYDcar/BYDGlobalFactoryImages1
+
+Currently this repo only has the ATTO 3 factory image. For repair manual, you can refer to the Chinese version Yuan PLUS in the below repair manual repo.
 ```
-├─
-ATTO3:
+├─ATTO3:
 │      Di3.0_13.1.32.2212081.1_0.zip
 ```
 
@@ -26,19 +27,20 @@ If the above method does not work, you can try another method
 2. Format a U disk as FAT32. Create a folder called BYDUpdatePackage, and then create msm8953_64 folder in it
 3. Copy the UpdateFull.zip to the folder, and check the path as BYDUpdatePackage\msm8953_64\UpdateFull.zip
 4. Plug The U disk into the USB data transfer port on the car when the system is running
-5, The "Previous" button of the steering wheel + the "volume wheel" next to the gear = long press at the same time, until the screen is black, the system will automatically enter the engineering mode to read the factory image
+5, Long press the "Previous" button of the steering wheel + the "Volume wheel" next to the gear at the same time, until the screen is black, the system will automatically enter the engineering mode to read the factory image
 6. Wait for the flashing to complete
 ```
 
 # Why share for free?
-I need to research some BYD cars, and found that some websites on the Internet provide scattered maintenance manuals. I found that the maintenance manuals can be found on the BYD after-sales website http://lms.bydauto.com.cn/, flashing information can be downloaded from http://yunpan.byd.com.cn/, but you need the account of the dealer or repair shop to download. Then I found that Taobao Xianyu sold these materials, so I bought them all and shared them for free.
+I need to research some BYD cars, and found that some websites on the Internet provide scattered repair manuals. I found that the repair manuals can be found on the BYD after-sales website http://lms.bydauto.com.cn/, factory images can be downloaded from http://yunpan.byd.com.cn/, but you need the account of a dealer or repair shop to download. Then I found that Taobao Xianyu sold these materials, so I bought them all and shared them for free.
 
-It is very troublesome to find some scattered information on the Internet. At present, the software and hardware ecology of automobiles is too closed. In terms of software, it is not like mobile phones and routers that can be flashed into third-party open source systems at will. In terms of hardware, there are not many modified and upgraded spare parts like 3D printers. Think about it, if the car can be flashed into the open source system, and the open source parts can be upgraded, it might be cool to realize functions that were not there before.
+It is very troublesome to find car reverse engineering information on the Internet. At present, the software and hardware ecology of automobiles is too closed. In terms of software, it is not like mobile phones and routers that can be flashed into third-party open source systems at will. In terms of hardware, there are not many modified and upgraded spare parts like 3D printers. Think about it, if a car can use open source system, and there are open source parts can be upgraded, it might be cool to realize functions that were not there before.
 
 At present, some people abroad are researching on the modification and installation of assisted driving and automatic driving. For example, this video https://www.youtube.com/watch?v=Te4AhlRXnLw refits a 2005 old car with Tesla’s iBooster and installs it The open source auxiliary software openpilot (https://github.com/commaai/openpilot) is used to realize automatic driving. There are also some people who are studying the conversion of fuel vehicles into electric vehicles. For example, this video https://www.youtube.com/watch?v=ZVtOss1U7_s converts an old Volkswagen Beetle into an electric vehicle. Therefore, I share these materials in order to promote research on various modifications and installations at home and abroad.
 
-In addition, studying these may be of practical benefit. At present, the cheapest Qin PLUS DM-i 2023 model sold by BYD is 99,800 yuan. The low-end version does not include L2 assisted driving functions such as full-speed adaptive cruise. For full-speed adaptive cruise, there is only an extra 46,000 yuan to upgrade to the high-end version of 145,800 yuan. If you can make a few thousand yuan to upgrade the modified accessories for driving assistance, then the low-end version plus modified accessories will be very cost-effective.
+In addition, researching these may be of practical benefit. At present, the cheapest Qin PLUS DM-i 2023 model sold by BYD is 99,800 yuan. The low-end version does not include L2 assisted driving functions such as full-speed adaptive cruise control. For full-speed adaptive cruise, you need an extra 46,000 yuan to upgrade to the high-end version of 145,800 yuan. If you can make a few thousand yuan to upgrade with modified parts for self driving, then the low-end version plus will be very cost-effective.
 
+In case you must want to donate, you can donate to Monero: 85RAUfhbEB32P2Er3eamcgcVGXnscHe7Wd15v1CRqswyNfYcjNSXgP2FPrYFmKtYgA8jshyBQsZNQgZeB3V1oizU35QpFkz
 
 # Large files are divided and compressed for upload
 Because Github limits a single file to no more than 100M, a single push cannot exceed 2GB, and a single warehouse cannot exceed 100GB. So I divided and uploaded the large files (mainly the flashing package of the Android car and several maintenance manuals). I used https://github.com/sisl/GitHub-ForceLargeFiles to divide the large files and upload them. After the division It is a split package compressed by 7zip, you can manually decompress it with 7zip, or use the following code to automatically restore all files
@@ -581,11 +583,10 @@ BYD (Build Your Dream) Car Global Models Repair Manuals and Factory Images
 这几个Github仓库包含比亚迪汽车全球版的维修手册和刷机资料，全球版指的是比亚迪在海外发售的版本，比如比如在澳大利亚、日本、马来西亚发售的ATTO 3（中国大陆版本对应元 PLUS），但请注意比亚迪汽车全球版的软件和中国大陆版的有些不一样可能不通用。  
 
 # 全球版的刷机文件：
-
+目前全球版仅有ATTO 3刷机文件，需要维修手册请参考下面仓库里国内对应的元PLUS车型。
 https://github.com/BYDcar/BYDGlobalFactoryImages1
 ```
-├─
-ATTO3:
+├─ATTO3:
 │      Di3.0_13.1.32.2212081.1_0.zip
 ```
 
@@ -617,6 +618,7 @@ ATTO3:
 
 另外研究这些很有可能是有实际利益的哦，目前比亚迪在售最便宜的秦PLUS DM-i 2023款 9.98万元的低配版是不含全速自适应巡航等L2辅助驾驶功能的，想要全速自适应巡航的话只有加4.6万元升级到14.58万元的高配版。假如可以做出几千元升级辅助驾驶的改装配件，那样低配版加上改装配件的性价比就会很高。
 
+如果你非常想要赞助，可以赞助门罗币：85RAUfhbEB32P2Er3eamcgcVGXnscHe7Wd15v1CRqswyNfYcjNSXgP2FPrYFmKtYgA8jshyBQsZNQgZeB3V1oizU35QpFkz
 
 # 大文件都分割压缩上传了
 因为Github限制单个文件不能超过100M，单次上传push不能超过2GB，单个仓库不能超过100GB。所以我把大文件（主要是安卓车机的刷机包和几个维修手册）都分割上传了，我用了 https://github.com/sisl/GitHub-ForceLargeFiles 把大文件分割然后上传，分割后的是7zip压缩的分割包，可以手动用7zip解压，也可以用下面的代码自动把所有的文件都恢复
