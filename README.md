@@ -40,6 +40,8 @@ At present, some people abroad are researching on the modification and installat
 
 In addition, researching these may be of practical benefit. At present, the cheapest Qin PLUS DM-i 2023 model sold by BYD is 99,800 yuan. The low-end version does not include L2 assisted driving functions such as full-speed adaptive cruise control. For full-speed adaptive cruise, you need an extra 46,000 yuan to upgrade to the high-end version of 145,800 yuan. If you can make a few thousand yuan to upgrade with modified parts for self driving, then the low-end version plus will be very cost-effective.
 
+In addition, some Chinese users recently posted that BYD secretly carried out OTA updates in the middle of the night without the permission of the car owner, causing the car to be unusable (search for "比亚迪半夜偷偷OTA" to find relevant information, and it seems that there are video and log records as evidence, it seems to be true issue) . So at present, it seems that there is an urgent need to obtain root permission to restrict connection to BYD server to prevent unauthorized OTA updates. In the future, it may be necessary to research flashing open source self-made system into the car so that the vehicle can be completely controlled by oneself.
+
 In case you must want to donate, you can donate to Monero: 85RAUfhbEB32P2Er3eamcgcVGXnscHe7Wd15v1CRqswyNfYcjNSXgP2FPrYFmKtYgA8jshyBQsZNQgZeB3V1oizU35QpFkz
 
 # Large files are divided and compressed for upload
@@ -617,6 +619,8 @@ https://github.com/BYDcar/BYDGlobalFactoryImages1
 目前国外有些人在研究改装加装辅助驾驶自动驾驶，比如这个视频 https://www.youtube.com/watch?v=Te4AhlRXnLw 把一款2005年的老车改装了特斯拉的iBooster并加装了开源辅助软件openpilot ( https://github.com/commaai/openpilot )，实现了自动行驶。还有一些人在研究燃油车改装成电动车，比如这个视频 https://www.youtube.com/watch?v=ZVtOss1U7_s 把一个老车大众甲壳虫改装成电动车。因此我分享这些资料以便促进国内外研究各种改装加装。
 
 另外研究这些很有可能是有实际利益的哦，目前比亚迪在售最便宜的秦PLUS DM-i 2023款 9.98万元的低配版是不含全速自适应巡航等L2辅助驾驶功能的，想要全速自适应巡航的话只有加4.6万元升级到14.58万元的高配版。假如可以做出几千元升级辅助驾驶的改装配件，那样低配版加上改装配件的性价比就会很高。
+
+另外，最近有些人发帖声称比亚迪未经车主允许在半夜偷偷进行OTA更新造成无法用车（搜索“比亚迪 半夜 偷偷OTA”可以搜到相关信息，看起来有监控和日志记录为证像是真事）。所以目前似乎急需获取root权限限制和比亚迪服务器链接阻止未经允许的OTA更新，将来也许需要研究刷入开源自制系统以便可以把车辆完全掌握在自己手上。
 
 如果你非常想要赞助，可以赞助门罗币：85RAUfhbEB32P2Er3eamcgcVGXnscHe7Wd15v1CRqswyNfYcjNSXgP2FPrYFmKtYgA8jshyBQsZNQgZeB3V1oizU35QpFkz
 
